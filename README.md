@@ -151,7 +151,7 @@ For Plex HTPC, you must enable **Force Direct Play** in the settings.
 ---
 
 ## **Credits**
-MacReplay is based on the incredible work done by [Chris230291](https://github.com/Chris230291) with the original [STB-Proxy](https://github.com/Chris230291/STB-Proxy).  
+MacReplay is based on the incredible work done by [Chris230291](https://github.com/Chris230291) with the original [STB-Proxy](https://github.com/Chris230291/STB-Proxy) and [Evilvir-us](https://github.com/Evilvir-us) with the original [MacReplay](https://github.com/Evilvir-us/MacReplay)
 
 ---
 
