@@ -13,9 +13,21 @@ MacReplayV2 is a lightweight IPTV portal proxy packaged for Docker on Unraid. Th
 
 ## Quick Start on Unraid
 
-Just copy the "my-macreplayv2.xml" File to your UNRAID Folder "/boot/config/plugins/dockerMan/templates-user/" and open the UNRAID Interface --> "APPS" --> "Previous Apps" and install "MacReplayV2"
+### Manual Template Installation
 
-Then open `http://YOUR-UNRAID-IP:8001` and add your first portal.
+1. Download the `my-macreplayv2.xml` template file from this repository.
+2. Copy it to your Unraid server at: `/boot/config/plugins/dockerMan/templates-user/`
+3. In Unraid WebUI, navigate to **APPS** → **Previous Apps** → search for "MacReplayV2"
+4. Select the Container and click **Actions** → **Reinstall** to create the container.
+5. Wait for the container to start, then open `http://YOUR-UNRAID-IP:8001` in your browser.
+
+### First Steps
+
+- Navigate to the **Portals** tab and add your IPTV provider endpoint.
+- Supply one or more MAC addresses (or leave for auto-detection).
+- Click **Test** to verify connectivity.
+- Visit the **Channel Editor** to manage, filter, and enable/disable streams.
+- Use the **Downloads** menu to grab the M3U and XMLTV outputs for your media player.
 
 ## Minimal Configuration
 
@@ -49,6 +61,31 @@ docker stop macreplayv2
 rm /mnt/user/appdata/macreplayv2/data/MacReplayV2.json
 docker start macreplayv2
 ```
+
+## Screenshots
+
+Showcase your MacReplayV2 setup by adding screenshots here:
+
+### Dashboard
+
+![Dashboard](./docs/screenshots/dashboard.png)
+
+### Portals Management
+
+![Portals Tab](./docs/screenshots/portals.png)
+
+### Channel Editor
+
+![Channel Editor](./docs/screenshots/editor.png)
+
+### Settings
+
+![Settings](./docs/screenshots/settings.png)
+
+> **How to add screenshots:**
+> 1. Create a `docs/screenshots/` folder in this repository.
+> 2. Place your PNG/JPG images in that folder (e.g., `dashboard.png`, `portals.png`, `editor.png`, `settings.png`).
+> 3. Update the image paths above to match your filenames and layout.
 
 ## Status
 
