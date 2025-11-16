@@ -76,7 +76,7 @@ Showcase your MacReplayV2 setup by adding screenshots here:
 
 ### Channel Editor
 
-![Channel Editor](./docs/screenshots/editor.png)
+![Channel Editor](./docs/screenshots/channeleditor.png)
 
 ### Settings
 
