@@ -82,11 +82,6 @@ Showcase your MacReplayV2 setup by adding screenshots here:
 
 ![Settings](./docs/screenshots/settings.png)
 
-> **How to add screenshots:**
-> 1. Create a `docs/screenshots/` folder in this repository.
-> 2. Place your PNG/JPG images in that folder (e.g., `dashboard.png`, `portals.png`, `editor.png`, `settings.png`).
-> 3. Update the image paths above to match your filenames and layout.
-
 ## Status
 
 Experimental test project. Use at your own risk and do not rely on it for production IPTV workloads.
